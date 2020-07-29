@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      .question-text {
+        display: none;
+      }
+
+      .minus-icon {
+        display: none;
+      }
+
+      .show-text .question-text {
+        display: block;
+        color: blue;
+      }
+
+      .show-text .minus-icon {
+        display: inline;
+        color: red;
+      }
+
+      .show-text .plus-icon {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h2 class="question-text">question text</h2>
+    <h2 class="minus-icon">minus-icon</h2>
+    <hr />
+    <h3 class="plus-icon">plus icon</h3>
+
+    <script>
+      if (true) {
+        document.body.classList.toggle("show-text");
+      }
+      //   if (true) {
+      //     document.body.classList.remove("show-text");
+      //   }
+    </script>
+  </body>
+</html>
