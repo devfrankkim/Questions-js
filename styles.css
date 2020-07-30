@@ -233,7 +233,6 @@ Questions
 }
 
 /* ========= hide text  =========*/
-
 .question-text {
   display: none;
 }
@@ -252,4 +251,8 @@ Questions
 
 .show-text .plus-icon {
   display: none;
+}
+
+.show-text .question-btn {
+  color: red;
 }
