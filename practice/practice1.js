@@ -21,10 +21,9 @@ questions.forEach(function (question) {
 
       if (item !== question) {
         item.classList.remove("show-text");
-      } else {
-        question.classList.toggle("show-text");
       }
     });
+    question.classList.toggle("show-text");
   });
 });
 
