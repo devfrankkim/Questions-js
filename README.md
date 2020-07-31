@@ -2,6 +2,7 @@
 
 What I have used and learned in this project: 
 
+- [x] Traversing DOM manipulation
 - [x] Scope
 - [x] Create random css property + DOM manipulation
 - [x] forEach()

@@ -26,6 +26,8 @@ questions.forEach((question) => {
   // 2. click the section
   // 3. loop and compare
   // 4. Validate if clicked
+
+  const question = () => {};
   question.addEventListener("click", () => {
     console.log("question", question);
 
