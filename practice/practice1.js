@@ -19,6 +19,8 @@ questions.forEach(function (question) {
       //   console.log("item", item);
       //   console.log("question", question);
 
+      // If the clicked element does not match, it will remove the CSS
+      // -> when you click the elements, no match elements will be deleted.
       if (item !== question) {
         item.classList.remove("show-text");
       }
